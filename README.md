@@ -22,6 +22,8 @@ Overview of the repository (number indicates the order to run):
 
 5 - Topics + Satisfaction rating calculations: Code to calculate the average satisfaction, assign topics to each review, and get keyword probabilities
 
+6 - Combining topics and full stories: Code to combine topics probabilities and full stories for analysis + examples
+
 
 _For the code in 4 and 5, the notebooks were also uploaded. In this way the reader can see the results of the code_
 
