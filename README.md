@@ -2,7 +2,9 @@
 
 Overview of the repository (number indicates the order to run):
 
-1 - Data scraping: Code to scrape the reviews from Zorgkaart
+1 - Data scraping: Code to scrape the reviews from Zorgkaart (deleted)
+
+    I deleted this part of the code in accordance with my ethical considerations regarding copyright. For more information, see Section 5.1 of my thesis.
 
 2 - Cleaning: Code to clean the reviews
 
