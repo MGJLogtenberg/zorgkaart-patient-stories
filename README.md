@@ -24,10 +24,12 @@ Overview of the repository (number indicates the order to run):
 
 5 - Topics + Satisfaction rating calculations: Code to calculate the average satisfaction, assign topics to each review, and get keyword probabilities
 
-6 - Combining topics and full stories: Code to combine topics probabilities and full stories for analysis + examples
+6 - Combining topics and full stories: Code to combine topics probabilities and full stories for analysis + examples (this code also includes calculation of average length for each topic)
+
+7 - Random sample for qualitative analysis: Code to append length information, sample 50 stories for each topic (+ 50 hard-to-classify stories) and print the average length of hard-to-classify topics and average overall
 
 
-_For the code in 4 and 5, the notebooks were also uploaded. In this way the reader can see the results of the code_
+_For the code in 4 to 7, the notebooks including the final run were also uploaded. In this way the reader can see the results of the code_
 
 
 Please credit: Martijn Logtenberg
