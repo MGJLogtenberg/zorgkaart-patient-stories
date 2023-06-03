@@ -4,7 +4,7 @@ Overview of the repository (number indicates the order to run):
 
 1 - Data scraping: Code to scrape the reviews from Zorgkaart (deleted)
 
-    I deleted this part of the code in accordance with my ethical considerations regarding copyright. For more information, see Section 5.1 of my thesis.
+    I deleted this part of the code in accordance with my ethical considerations. For more information, see Section 3.1.2 of my thesis.
 
 2 - Cleaning: Code to clean the reviews
 
@@ -14,7 +14,7 @@ Overview of the repository (number indicates the order to run):
 
     2.3 - English review removal: Identify and remove all English reviews
 
-3 - Descriptive stats + EDA: Code to visualise word clouds, histogram and dataset sizes
+3 - Descriptive stats + EDA: Code to visualise word clouds (in English, includes translation code), histogram and dataset sizes
 
 4 - LDA model tuning: Code to tune LDA model and visualise tuning results
 
@@ -29,7 +29,7 @@ Overview of the repository (number indicates the order to run):
 7 - Random sample for qualitative analysis: Code to append length information, sample 50 stories for each topic (+ 50 hard-to-classify stories) and print the average length of hard-to-classify topics and average overall
 
 
-_For the code in 4 to 7, the notebooks including the final run were also uploaded. In this way the reader can see the results of the code_
+_For the code in 3 to 7, the notebooks including the final run were also uploaded. In this way the reader can see the results of the code_
 
 
 Please credit: Martijn Logtenberg
