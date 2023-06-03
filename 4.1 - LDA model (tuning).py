@@ -5,6 +5,7 @@ from gensim.utils import simple_preprocess
 import pandas as pd
 import gensim.corpora as corpora
 from sklearn.model_selection import train_test_split
+from __future__ import print_function
 import pyLDAvis
 from pyLDAvis import gensim_models as vis_pack
 
@@ -62,5 +63,5 @@ lda_model = gensim.models.ldamulticore.LdaMulticore(workers=5, #Specify final mo
                                                     passes=7,
                                                     random_state=3099)
 pyLDAvis.enable_notebook() #Allow package to show in notebook
-p = vis_pack.prepare(lda_model, test_corpus, id2word) #Set visualisation of final model
+p = vis_pack.prepare(lda_model, test_corpus, id2word, sort_topics=False) #Set visualisation of final model
 p #Show visualisation of final model
